@@ -1,0 +1,20 @@
+// to create file
+cmd> rails g controller home index
+
+// to create database table
+cmd> rails g scaffold friends first_name:string last_name:string
+
+// to migrate database
+cmd> rails db:migrate
+
+// to view routes
+cmd> rails routes
+
+// to run server
+cmd> rails s 
+
+// to make association(migration)
+cmd> rails g migration add_user_id_to_friends user_id:integer:index
+
+// everytime we mess with database we make this below command
+cmd> rails db:migrate
